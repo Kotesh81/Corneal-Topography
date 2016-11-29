@@ -1,0 +1,7 @@
+#Tue Nov 29 11:52:00 IST 2016
+base.0=/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_acfeab2032972084f4ff16f31256ef75272d288f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2f10a95ee14bf9122b198ef497517bd7d58ab3f0/classes.dex
+base.1=/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2f10a95ee14bf9122b198ef497517bd7d58ab3f0
+file.0=/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_acfeab2032972084f4ff16f31256ef75272d288f/classes.dex

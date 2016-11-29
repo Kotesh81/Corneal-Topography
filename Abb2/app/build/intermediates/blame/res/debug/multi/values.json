@@ -1,0 +1,227 @@
+[
+    {
+        "outputFile": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 48,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 52,
+                    "endOffset": 266
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 271,
+                    "endColumn": 45,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 62,
+                    "endOffset": 375
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 781,
+                        "endColumn": 62,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 380,
+                    "endColumn": 66,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 713,
+                        "endColumn": 66,
+                        "endOffset": 775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 67,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 65,
+                    "endOffset": 576
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 581,
+                    "endColumn": 52,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endColumn": 66,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endColumn": 60,
+                    "endOffset": 757
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 762,
+                    "endColumn": 61,
+                    "endOffset": 819
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 824,
+                    "endColumn": 58,
+                    "endOffset": 878
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 883,
+                    "endColumn": 58,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 1020
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1025,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1092
+                },
+                "from": {
+                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/styles.xml"
+                }
+            }
+        ]
+    }
+]
