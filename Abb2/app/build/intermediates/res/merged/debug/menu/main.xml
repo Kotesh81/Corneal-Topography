@@ -8,5 +8,10 @@
         android:orderInCategory="100"
         android:title="Home"
         android:showAsAction="never"/>
+    <item
+        android:title="Turn On Flash"
+        android:orderInCategory="101"
+        android:id="@+id/action_flash"
+        />
 
-    </menu>
+</menu>

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/res/merged/debug/menu/details.xml",
-        "source": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/menu/details.xml"
+        "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/menu/details.xml",
+        "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/menu/details.xml"
     },
     {
-        "merged": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/res/merged/debug/menu/success.xml",
-        "source": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/menu/success.xml"
+        "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/menu/suc.xml",
+        "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/menu/suc.xml"
     },
     {
-        "merged": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/menu/main.xml"
+        "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/menu/success.xml",
+        "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/menu/success.xml"
     },
     {
-        "merged": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/res/merged/debug/menu/suc.xml",
-        "source": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/menu/suc.xml"
+        "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/menu/main.xml"
     }
 ]

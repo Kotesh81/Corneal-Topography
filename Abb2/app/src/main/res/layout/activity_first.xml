@@ -1,18 +1,37 @@
 <LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/bkgnd2"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <Button android:layout_width="208dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="50sp"
+    <Button
         android:text="@string/firstButton_firstActivity"
-        android:id="@+id/FirstActivityFirstButton"/>
+        android:drawableTop="@drawable/newpatient"
+        android:id="@+id/FirstActivityFirstButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="#2f4c8d"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:soundEffectsEnabled="true"
+        android:textColor="#ffff"
+        android:padding="35dp" />
 
-    <Button android:layout_width="208dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="50sp"
+
+    <Button
+        android:background="#2c2c2c"
+        android:layout_height="match_parent"
+        android:drawableTop="@drawable/existing"
         android:text="@string/firstActivity_secondButton"
-        android:id="@+id/FirstActivitySecondButton"/>
+        android:id="@+id/FirstActivitySecondButton"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:soundEffectsEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:textColor="#ffff"
+        android:padding="35dp" />
 </LinearLayout>

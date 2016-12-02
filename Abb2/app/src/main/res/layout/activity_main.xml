@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bkgnd2"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#2c2c2c">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,46 +13,46 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:text="callibrate" />
+        <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:text="Done"-->
+        <!--android:layout_toRightOf="@+id/imageView1" />-->
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/button1"
-            android:text="capture" />
+            android:text="Start"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/button4"
+            android:layout_alignParentRight="true" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Capture"
+            android:textColor="#ffff"
             android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@+id/button2"
-            android:layout_toRightOf="@+id/imageView1"
-            android:text="Save" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="Done" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
 
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/cameraicon"
+            android:minHeight="10dp"
+            android:maxHeight="40dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_above="@+id/button3"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:src="@android:drawable/ic_input_add" />
+            android:layout_centerVertical="true" />
 
     </RelativeLayout>
 

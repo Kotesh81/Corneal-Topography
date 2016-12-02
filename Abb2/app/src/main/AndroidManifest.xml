@@ -14,8 +14,8 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
 
@@ -33,6 +34,7 @@
         </activity>
         <activity
             android:name=".FirstActivity"
+            android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,7 +44,8 @@
         </activity>
         <activity
             android:name=".DetailsActivity"
-            android:label="@string/title_activity_details" >
+            android:label="@string/title_activity_details"
+            android:screenOrientation="portrait">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
 
@@ -51,15 +54,13 @@
 
         </activity>
         <activity
-            android:name=".Success"
-            android:label="@string/title_activity_success" >
-        </activity>
-        <activity
             android:name=".SuccessActivity"
-            android:label="@string/title_activity_success" >
+            android:label="@string/title_activity_success"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".SearchActivity"
+            android:screenOrientation="portrait"
             android:label="Search Activity" >
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->

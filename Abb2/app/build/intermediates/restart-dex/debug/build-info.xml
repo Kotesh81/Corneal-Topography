@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
-    density="560dpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="12424311683951"
-    token="356443609213653287"
-    verifier="COMPATIBLE" >
+    timestamp="8193726639542"
+    token="-7127049936148012901"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,29 +23,15 @@
         duration="0" />
 
     <artifact
-        location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="7312480501712"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="8193726639542"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/outputs/apk/app-debug.apk"
+            location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="12220519101895"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="12424311683951"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
