@@ -2,133 +2,171 @@
     android:id="@+id/scrollView1"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bkgnd2" 
-   >
+    android:background="#2f4c8d"
+    >
 
-<LinearLayout
-    android:layout_width="fill_parent"
-    android:layout_height="match_parent"
-    
-    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_height="match_parent"
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="PATIENT DETAILS"
-        android:layout_marginLeft="50dp"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:weightSum="1"
+        android:layout_width="match_parent">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Patient Name"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="PATIENT DETAILS"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="enter name"
-        android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.25" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MR Number"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:textColor="#fff"
+            android:id="@+id/editText1"
+            android:textColorHint="#99bbff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" >
+            <requestFocus />
+        </EditText>
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="enter mr number"
-        android:inputType="textPersonName" >
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR Number"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp" />
 
-        <requestFocus />
-    </EditText>
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:text="Gender"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:textColor="#fff"
+            android:id="@+id/editText2"
+            android:textColorHint="#99bbff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Mr Number"
+            android:inputType="textPersonName" />
 
-    <CheckBox
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Male" />
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Female" />
+        <TextView
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="61dp"
-        android:layout_height="wrap_content"
-        android:text="Age"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="42dp"
-        android:ems="10"
-        android:hint="enter age"
-        android:inputType="number" />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mobile number"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/textView4"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp" />
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="10 digit mobile number"
-        android:inputType="phone" />
+        <EditText
+            android:textColor="#fff"
+            android:id="@+id/editText3"
+            android:textColorHint="#99bbff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Age"
+            android:inputType="number" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Address"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="complete address" />
+        <EditText
+            android:textColor="#fff"
+            android:id="@+id/editText5"
+            android:textColorHint="#99bbff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="10 Digit Mobile Number"
+            android:inputType="phone" />
 
-       <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:text="OK" />
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cancel" />
+        <EditText
+            android:textColor="#fff"
+            android:id="@+id/editText4"
+            android:textColorHint="#99bbff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Complete Address" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:weightSum="1"
+            android:layout_marginBottom="15dp">
+            <Button
+                android:id="@+id/button1"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:layout_weight="0.5" />
 
-</LinearLayout>
+            <Button
+                android:id="@+id/button2"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+    </LinearLayout>
 </ScrollView>

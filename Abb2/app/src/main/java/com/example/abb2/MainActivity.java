@@ -1,6 +1,7 @@
 package com.example.abb2;
 /* perfect running code with camera and flash and storage*/
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -41,11 +42,16 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
     private File myGeneralFolder;
     private byte[] mCameraData;
     Button start, done,capture,save,retake;
+    public boolean firstTime=true;
+    public boolean stored=false;
+    public boolean firstTime1 = true;
+    public boolean flashison = false;
 
     String newString;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bundle extras;
@@ -61,31 +67,34 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             }
             Toast.makeText(getBaseContext(), newString, Toast.LENGTH_SHORT).show();
         }
-        start = (Button)findViewById(R.id.button1);
-
         save = (Button)findViewById(R.id.button4);
         save.setEnabled(false);
-
-        done = (Button)findViewById(R.id.button2);
-        done.setEnabled(false);
-
         capture = (Button) findViewById(R.id.button3);
-        capture.setEnabled(false);
-
-        start.setOnClickListener(new Button.OnClickListener()
-        {
-            public void onClick(View arg0) {
-                start_camera();
-                capture.setEnabled(true);
-            }
-        });
-
+        capture.setEnabled(true);
         capture.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                captureImage();
-                save.setEnabled(true);
+                firstTime1=false;
+                if(firstTime) {
+                    start_camera();
+                    camera.startPreview();
+                    save.setEnabled(false);
+                    save.setVisibility(v.INVISIBLE);
+                    capture.setText("Capture");
+                    firstTime=false;
+                    stored=false;
+                    save.setText("Save");
+                }
+                else {
+                    save.setVisibility(v.VISIBLE);
+                    captureImage();
+                    save.setEnabled(true);
+                    capture.setEnabled(true);
+                    firstTime=true;
+                    capture.setText("Start");
+                    save.setVisibility(v.VISIBLE);
+                }
             }
         });
 
@@ -93,23 +102,25 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 
             @Override
             public void onClick(View v) {
-                store(mCameraData);
-                stop_camera();
-                done.setEnabled(true);
-                capture.setEnabled(false);
+                if (!stored) {
+                    store(mCameraData);
+                    capture.setEnabled(true);
+                    firstTime = true;
+                    capture.setVisibility(v.VISIBLE);
+                    stored = true;
+                    save.setText("Done");
+                }
+                else {
+                    firstTime=true;
+                    stop_camera();
+                    stored=false;
+                    Intent it=new Intent(MainActivity.this,SuccessActivity.class);
+                    it.putExtra("mr_no", newString);
+                    startActivity(it);
+                    finish();
+                }
             }
         });
-
-        done.setOnClickListener(new Button.OnClickListener()
-        {
-            public void onClick(View arg0) {
-                Intent it=new Intent(MainActivity.this,SuccessActivity.class);
-                it.putExtra("mr_no", newString);
-                startActivity(it);
-                finish();
-            }
-        });
-
         surfaceView = (SurfaceView)findViewById(R.id.surface_view1);
         surfaceHolder = surfaceView.getHolder();
         surfaceHolder.addCallback(this);
@@ -130,12 +141,11 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         jpegCallback = new PictureCallback() {
             public void onPictureTaken(byte[] data, Camera camera) {
                 mCameraData = data;
-                //store(data);
             }
         };
     }
     private void store(byte[] mCameraData) {
-        myGeneralFolder = new  File(Environment.getExternalStorageDirectory()+File.separator+"myBullImages");
+        myGeneralFolder = new  File(Environment.getExternalStorageDirectory()+File.separator+"BullsEyeImages/"+newString);
         myGeneralFolder.mkdirs();
         FileOutputStream outStream = null;
         try {
@@ -151,7 +161,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             e.printStackTrace();
         } finally {
         }
-        Toast.makeText(getBaseContext(), "saved", Toast.LENGTH_SHORT).show();
         Log.d("Log", "onPictureTaken - jpeg");
         db=openOrCreateDatabase("mydbase.db", MODE_PRIVATE, null);
         String sql="CREATE TABLE IF NOT EXISTS patimgs(mr_no VARCHAR,url image)";
@@ -161,13 +170,18 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         Toast.makeText(getBaseContext(), "Saved in Database", Toast.LENGTH_SHORT).show();
     }
     private void captureImage() {
-        camera.takePicture(shutterCallback, rawCallback, jpegCallback);
+
+        camera.takePicture(null, rawCallback, jpegCallback);
     }
 
     private void start_camera() {
         try{
             camera = Camera.open();
-            turnOnFlashLight();
+//            turnOnFlashLight();
+            if(flashison) {
+                turnOnFlashLight();
+            }
+            else turnOffFlashLight();
         } catch(RuntimeException e){
             Log.e(tag, "init_camera: " + e);
             return;
@@ -176,10 +190,10 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         Camera.Parameters param;
         param = camera.getParameters();
         //modify parameter
-        param.setPreviewFrameRate(20);
-        param.setPreviewSize(1280,720); /*176, 144*/
+//        param.setPreviewFrameRate(20);
+//        param.setPreviewSize(1280,720); /*176, 144*/
 
-        param.setWhiteBalance(Camera.Parameters.WHITE_BALANCE_AUTO);
+//        param.setWhiteBalance(Camera.Parameters.WHITE_BALANCE_AUTO);
         param.setJpegQuality(100);
         //param.setFocusMode(param.FOCUS_MODE_FIXED);
         camera.setParameters(param);
@@ -228,6 +242,20 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         }
     }
 
+    // Turning On flash
+    public void turnOffFlashLight() {
+        try {
+            if (getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH)) {
+                Parameters p = camera.getParameters();
+                p.setFlashMode(Parameters.FLASH_MODE_OFF);
+                camera.setParameters(p);
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(getBaseContext(), "Exception throws in turning off flashlight.", Toast.LENGTH_SHORT).show();
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -243,17 +271,37 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_home) {
+            turnOffFlashLight();
             Intent it=new Intent(MainActivity.this,FirstActivity.class);
             startActivity(it);
             finish();
             return true;
+        }
+        if (id == R.id.action_flash) {
+            if(!firstTime1) {
+                if (item.getTitle().equals("Turn On Flash")) {
+                    turnOnFlashLight();
+                    flashison=true;
+                    if(save.getVisibility()==View.INVISIBLE) {
+                        save.setVisibility(View.VISIBLE);
+                    }
+                    item.setTitle("Turn Off Flash");
+                } else {
+                    turnOffFlashLight();
+                    flashison=false;
+                    item.setTitle("Turn On Flash");
+                }
+                return true;
+            }
+            else {
+                Toast.makeText(this, "Start Camera First", Toast.LENGTH_SHORT).show();
+            }
         }
         return super.onOptionsItemSelected(item);
     }
 
     @Override
     public void onBackPressed() {
-        // your code
         Intent it=new Intent(MainActivity.this,FirstActivity.class);
         startActivity(it);
         finish();

@@ -5,6 +5,7 @@ package com.example.abb2;
 
 import android.os.Bundle;
 
+import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -57,12 +58,14 @@ import android.database.sqlite.SQLiteDatabase;
                 male.setChecked(false);
             }
         });
+        pno.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
 
         ok.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+
                 String val1=pname.getText().toString();
                 String val2=mrn.getText().toString();
 
@@ -71,10 +74,10 @@ import android.database.sqlite.SQLiteDatabase;
                 String val4=age.getText().toString();
                 String val5=pno.getText().toString();
                 String val6=add.getText().toString();
+
                 if(val1.compareTo("")==0||val2.compareTo("")==0||val4.compareTo("")==0||val5.compareTo("")==0||val6.compareTo("")==0||(!male.isChecked()&&!female.isChecked()))
                 {
-                    Toast.makeText(getApplicationContext(), "fields can't be left blank", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "all fields are mandatory", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "All fields are mandatory", Toast.LENGTH_SHORT).show();
 
                 }
                 else{
@@ -83,7 +86,7 @@ import android.database.sqlite.SQLiteDatabase;
 
                     sql="CREATE TABLE IF NOT EXISTS pat(name VARCHAR,mr_no VARCHAR,gender VARCHAR,age VARCHAR,phno VARCHAR,address VARCHAR)";
                     db.execSQL(sql);
-                    Toast.makeText(getApplicationContext(), "created", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Added", Toast.LENGTH_SHORT).show();
                     if (male.isChecked())
                     {
                         sql ="INSERT or replace INTO pat(NAME, MR_NO, GENDER,AGE,PHNO,ADDRESS) VALUES('"+val1+"','"+val2+"','"+val3+"','"+val4+"','"+val5+"','"+val6+"')" ;
@@ -94,7 +97,7 @@ import android.database.sqlite.SQLiteDatabase;
                         sql ="INSERT or replace INTO pat(NAME, MR_NO, GENDER,AGE,PHNO,ADDRESS) VALUES('"+val1+"','"+val2+"','"+val31+"','"+val4+"','"+val5+"','"+val6+"')" ;
                         db.execSQL(sql);
                     }
-                    Toast.makeText(getApplicationContext(), "inserted", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), "Inserted", Toast.LENGTH_SHORT).show();
                     Intent it1=new Intent(DetailsActivity.this,SuccessActivity.class);
                     it1.putExtra("mr_no", mrn.getText());
                     startActivity(it1);
@@ -114,7 +117,6 @@ import android.database.sqlite.SQLiteDatabase;
                 add.setText(" ");
                 male.setChecked(false);
                 female.setChecked(false);
-
             }
         });
     }

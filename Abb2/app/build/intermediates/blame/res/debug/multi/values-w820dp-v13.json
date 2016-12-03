@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

@@ -35,18 +35,24 @@ import android.widget.TextView;
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Cursor c=db.rawQuery("select count(*) from pat where mr_no="+mrns.getText(),null);
-                c.moveToFirst();
-                if(c.getInt(0)==0) {
-                    Toast.makeText(SearchActivity.this, "Not in Database", Toast.LENGTH_SHORT).show();
+                if(mrns.getText().length()!=0) {
+                    Cursor c = db.rawQuery("select count(*) from pat where mr_no=" + mrns.getText(), null);
+                    c.moveToFirst();
+                    if (c.getInt(0) == 0) {
+                        Toast.makeText(SearchActivity.this, "Not in Database", Toast.LENGTH_SHORT).show();
+                        Intent it1 = new Intent(SearchActivity.this, SearchActivity.class);
+                        startActivity(it1);
+                        finish();
+                    } else {
+                        Intent it2 = new Intent(SearchActivity.this, SuccessActivity.class);
+                        it2.putExtra("mr_no", mrns.getText());
+                        startActivity(it2);
+                        finish();
+                    }
+                }   else {
+                    Toast.makeText(SearchActivity.this, "Blank", Toast.LENGTH_SHORT).show();
                     Intent it1 = new Intent(SearchActivity.this, SearchActivity.class);
                     startActivity(it1);
-                    finish();
-                }
-                else {
-                    Intent it2= new Intent(SearchActivity.this, SuccessActivity.class);
-                    it2.putExtra("mr_no", mrns.getText());
-                    startActivity(it2);
                     finish();
                 }
             }
@@ -83,4 +89,5 @@ import android.widget.TextView;
         startActivity(it);
         finish();
     }
+
 }

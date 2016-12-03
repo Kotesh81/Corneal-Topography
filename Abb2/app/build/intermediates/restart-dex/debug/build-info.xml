@@ -1,51 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
-    density="560dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="12424311683951"
-    token="356443609213653287"
-    verifier="COMPATIBLE" >
+    timestamp="5622413181944"
+    token="-7127049936148012901"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="108" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="46" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="7312480501712"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="5622413181944"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/outputs/apk/app-debug.apk"
+            location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="12220519101895"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="12424311683951"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/vedipen/StudioProjects/Abb2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

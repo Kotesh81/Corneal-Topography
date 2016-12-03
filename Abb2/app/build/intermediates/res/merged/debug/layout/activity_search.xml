@@ -1,35 +1,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content" android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2f4c8d"
+    android:padding="30dp">
 
     <TextView
         android:id="@+id/textView2"
+        android:textColor="#ffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="15dp"
         android:text="MR Number"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
+
+        android:textColorHint="#99bbff"
+        android:textColor="#ffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textCapCharacters"
+        android:inputType="textPersonName"
         android:hint="@string/enter_mr_number_search"
-        android:id="@+id/searchMRText"/>
-        <!--<requestFocus />-->
+        android:id="@+id/searchMRText"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
 
     <Button
+        android:textColor="#ffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Search"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:id="@+id/searchMRBtn"/>
+        android:id="@+id/searchMRBtn"
+        android:layout_marginTop="20dp" />
 
 </LinearLayout>

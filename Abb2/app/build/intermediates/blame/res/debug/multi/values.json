@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/vedipen/StudioProjects/Abb2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,14 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/dimens.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/dimens.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 213
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 48,
+                        "endOffset": 707
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 266
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 52,
+                        "endOffset": 208
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 45,
+                        "endOffset": 100
+                    }
                 }
             },
             {
@@ -71,7 +106,7 @@
                     "endOffset": 375
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml",
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -90,7 +125,7 @@
                     "endOffset": 442
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml",
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -109,7 +144,14 @@
                     "endOffset": 510
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 67,
+                        "endOffset": 657
+                    }
                 }
             },
             {
@@ -121,7 +163,14 @@
                     "endOffset": 576
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 65,
+                        "endOffset": 588
+                    }
                 }
             },
             {
@@ -133,7 +182,14 @@
                     "endOffset": 629
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 52,
+                        "endOffset": 154
+                    }
                 }
             },
             {
@@ -145,7 +201,14 @@
                     "endOffset": 696
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 66,
+                        "endOffset": 276
+                    }
                 }
             },
             {
@@ -157,7 +220,14 @@
                     "endOffset": 757
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 60,
+                        "endOffset": 458
+                    }
                 }
             },
             {
@@ -169,7 +239,14 @@
                     "endOffset": 819
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 61,
+                        "endOffset": 521
+                    }
                 }
             },
             {
@@ -181,7 +258,14 @@
                     "endOffset": 878
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 342,
+                        "endColumn": 58,
+                        "endOffset": 396
+                    }
                 }
             },
             {
@@ -193,7 +277,14 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/strings.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 58,
+                        "endOffset": 336
+                    }
                 }
             },
             {
@@ -201,25 +292,41 @@
                     "startLine": 17,
                     "startColumn": 4,
                     "startOffset": 942,
-                    "endLine": 19,
+                    "endLine": 23,
                     "endColumn": 12,
-                    "endOffset": 1020
+                    "endOffset": 1228
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/styles.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1025,
-                    "endLine": 22,
+                    "startOffset": 1233,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 1092
+                    "endOffset": 1388
                 },
                 "from": {
-                    "file": "/home/vedipen/StudioProjects/Abb2/app/src/main/res/values/styles.xml"
+                    "file": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
                 }
             }
         ]

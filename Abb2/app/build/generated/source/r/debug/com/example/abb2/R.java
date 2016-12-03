@@ -16,21 +16,19 @@ public final class R {
     }
     public static final class drawable {
         public static final int be2=0x7f020000;
-        public static final int bkgnd2=0x7f020001;
-        public static final int bkgnd21=0x7f020002;
-        public static final int coffee=0x7f020003;
-        public static final int coffee1=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int img=0x7f020006;
-        public static final int img1=0x7f020007;
-        public static final int pic2=0x7f020008;
-        public static final int pic21=0x7f020009;
-        public static final int pl=0x7f02000a;
-        public static final int pl1=0x7f02000b;
+        public static final int bkgnd21=0x7f020001;
+        public static final int cameraicon=0x7f020002;
+        public static final int capture=0x7f020003;
+        public static final int capture2=0x7f020004;
+        public static final int existing=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int newpatient=0x7f020007;
+        public static final int save1=0x7f020008;
     }
     public static final class id {
         public static final int FirstActivityFirstButton=0x7f080011;
         public static final int FirstActivitySecondButton=0x7f080012;
+        public static final int action_flash=0x7f08001f;
         public static final int action_home=0x7f08001e;
         public static final int button1=0x7f08000f;
         public static final int button2=0x7f080010;
@@ -49,16 +47,16 @@ public final class R {
         public static final int searchMRText=0x7f080017;
         public static final int surface_view1=0x7f080013;
         public static final int textView1=0x7f080002;
-        public static final int textView10=0x7f08001b;
-        public static final int textView11=0x7f08001c;
-        public static final int textView12=0x7f08001a;
+        public static final int textView10=0x7f08001a;
+        public static final int textView11=0x7f08001d;
+        public static final int textView12=0x7f08001c;
         public static final int textView2=0x7f080004;
         public static final int textView3=0x7f080006;
         public static final int textView4=0x7f080009;
         public static final int textView5=0x7f080001;
         public static final int textView6=0x7f08000b;
         public static final int textView7=0x7f08000d;
-        public static final int textView8=0x7f08001d;
+        public static final int textView8=0x7f08001b;
         public static final int textView9=0x7f080019;
     }
     public static final class layout {
@@ -92,8 +90,15 @@ public final class R {
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f040000;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f040001;
     }
 }
