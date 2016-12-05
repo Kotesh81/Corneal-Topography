@@ -15,7 +15,7 @@ with SDK tools
 * ~~Also while taking images, the order of button clicks is callibrate->capture->save. If this order is not followed the app crashes again~~
 * ~~However, if you want to discard the captured image don't click on save.~~
 * For recapturing calibrate again before capturing
-* 
+
 ## Installation:
 * In order to run this application on android devices, follow the path 
 `abb2->bin->app-debug.apk`.
