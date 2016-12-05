@@ -16,10 +16,6 @@
         "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/drawable-hdpi/capture2.png"
     },
     {
-        "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/drawable-hdpi/newpatient.png",
-        "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/drawable-hdpi/newpatient.png"
-    },
-    {
         "merged": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/intermediates/res/merged/debug/drawable-hdpi/existing.png",
         "source": "/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/src/main/res/drawable-hdpi/existing.png"
     }

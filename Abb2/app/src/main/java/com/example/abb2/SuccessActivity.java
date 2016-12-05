@@ -3,9 +3,12 @@ package com.example.abb2;
 
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.Menu;
 import android.database.sqlite.SQLiteDatabase;
 import android.view.MenuItem;
@@ -15,6 +18,8 @@ import android.widget.Button;
 
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
 
 public class SuccessActivity extends Activity {
 	SQLiteDatabase db;
@@ -26,53 +31,34 @@ public class SuccessActivity extends Activity {
 		Bundle extras;
 
 
-		if (savedInstanceState == null)
-
-		{
-
+		if (savedInstanceState == null) {
 			//fetching extra data passed with intents in a Bundle type variable
-
 			extras = getIntent().getExtras();
-
-			if(extras == null)
-
-			{        newString= null;
-
+			if(extras == null) {
+				newString= null;
 			}
-
-			else
-
-			{            /* fetching the string passed with intent using extras*/
-
+			else {
+				/* fetching the string passed with intent using extras*/
 				newString= extras.get("mr_no").toString();
-
 			}
 			Toast.makeText(getBaseContext(), newString, Toast.LENGTH_SHORT).show();
 		}
 
-//		Button ret=(Button)findViewById(R.id.button1);
-
 		Button home=(Button)findViewById(R.id.button2);
+		Button openF = (Button)findViewById(R.id.button3);
 		e2=(TextView)findViewById(R.id.textView2);
 		e4=(TextView)findViewById(R.id.textView4);
 		e6=(TextView)findViewById(R.id.textView6);
 		e8=(TextView)findViewById(R.id.textView8);
 		e12=(TextView)findViewById(R.id.textView12);
 		e11=(TextView)findViewById(R.id.textView11);
-//		ret.setOnClickListener(new OnClickListener() {
-//
-//			@Override
-//			public void onClick(View v) {
-		// TODO Auto-generated method stub
 
 		db=openOrCreateDatabase("mydbase.db",MODE_PRIVATE, null);
 		Cursor c=db.rawQuery("select * from pat where mr_no='"+newString+"'", null);
 		c.moveToFirst();
-		if(c!=null)
-		{
+		if(c!=null) {
 //					Toast.makeText(getApplicationContext(), "retreiving", Toast.LENGTH_SHORT).show();
-			do
-			{
+			do {
 				int c1=c.getColumnIndex("name");
 				String val1=c.getString(c1);
 				e2.setText(val1);
@@ -82,7 +68,7 @@ public class SuccessActivity extends Activity {
 				int c3=c.getColumnIndex("gender");
 				String val3=c.getString(c3);
 				e6.setText(val3);
-//						Toast.makeText(this, "Here"+val3+val3.length(), Toast.LENGTH_SHORT).show();
+//				  Toast.makeText(this, "Here"+val3+val3.length(), Toast.LENGTH_SHORT).show();
 				int c4=c.getColumnIndex("age");
 				String val4=c.getString(c4);
 				e8.setText(val4);
@@ -92,14 +78,9 @@ public class SuccessActivity extends Activity {
 				int c6=c.getColumnIndex("address");
 				String val6=c.getString(c6);
 				e11.setText(val6);
-
 			}while(c.moveToNext());
-
 		}
 
-//				Toast.makeText(getApplicationContext(), "retreived", Toast.LENGTH_LONG).show();
-//			}
-//		});
 		home.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -111,7 +92,28 @@ public class SuccessActivity extends Activity {
 				finish();
 			}
 		});
+		openF.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				openFolder();
+			}
+		});
 	}
+	public void openFolder() {
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		Uri uri = Uri.parse("//"+Environment.getExternalStorageDirectory()+File.separator+"BullsEyeImages"+File.separator+newString);
+		intent.setDataAndType(uri, "resource/folder");
+//        Toast.makeText(this, ""+Environment.getExternalStorageDirectory()+ File.separator+"BullsEyeImages/"+newString, Toast.LENGTH_SHORT).show();
+		try {
+			startActivity(intent);
+		}
+		catch (ActivityNotFoundException e) {
+			Toast.makeText(this, "Install file manager", Toast.LENGTH_SHORT).show();
+		}
+	}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,7 +138,6 @@ public class SuccessActivity extends Activity {
 	}
 	@Override
 	public void onBackPressed() {
-		// your code
 		Intent it=new Intent(SuccessActivity.this,FirstActivity.class);
 		startActivity(it);
 		finish();

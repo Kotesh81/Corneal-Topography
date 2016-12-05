@@ -1,6 +1,7 @@
 package com.example.abb2;
 /* perfect running code with camera and flash and storage*/
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -66,25 +67,10 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             }
             Toast.makeText(getBaseContext(), newString, Toast.LENGTH_SHORT).show();
         }
-//        start = (Button)findViewById(R.id.button1);
-
         save = (Button)findViewById(R.id.button4);
         save.setEnabled(false);
-//        save.setVisibility(View.INVISIBLE);
-//        done = (Button)findViewById(R.id.button2);
-//        done.setEnabled(false);
-
         capture = (Button) findViewById(R.id.button3);
         capture.setEnabled(true);
-
-//        start.setOnClickListener(new Button.OnClickListener()
-//        {
-//            public void onClick(View arg0) {
-//                start_camera();
-//                capture.setEnabled(true);
-//            }
-//        });
-
         capture.setOnClickListener(new Button.OnClickListener() {
 
             @Override
@@ -92,8 +78,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
                 firstTime1=false;
                 if(firstTime) {
                     start_camera();
-//                    R.id.action_flash.s("Turn On Flash");
-//                    camera.startPreview();
+                    camera.startPreview();
                     save.setEnabled(false);
                     save.setVisibility(v.INVISIBLE);
                     capture.setText("Capture");
@@ -103,23 +88,12 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
                 }
                 else {
                     save.setVisibility(v.VISIBLE);
-                      captureImage();
-//                    store(mCameraData);
-//                    start_camera();
-//                    camera.takePicture(shutterCallback, rawCallback, jpegCallback);
+                    captureImage();
                     save.setEnabled(true);
-//                    done.setEnabled(true);
                     capture.setEnabled(true);
-//                    camera.stopPreview();
-//                    store(mCameraData);
-//                    stop_camera();
                     firstTime=true;
-//                    captureImage();
-//
                     capture.setText("Start");
                     save.setVisibility(v.VISIBLE);
-
-//                    capture.setVisibility(v.INVISIBLE);
                 }
             }
         });
@@ -128,27 +102,16 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 
             @Override
             public void onClick(View v) {
-//                camera.startPreview();
-//                captureImage();
-//                start_camera();
                 if (!stored) {
-                   // captureImage();
                     store(mCameraData);
-//                    stop_camera();
-
-//                    done.setEnabled(true);
                     capture.setEnabled(true);
-                    //                start_camera();
                     firstTime = true;
                     capture.setVisibility(v.VISIBLE);
-//                    save.setVisibility(v.INVISIBLE);
-                    //                capture.setText("Capture");
                     stored = true;
                     save.setText("Done");
                 }
                 else {
                     firstTime=true;
-//                    turnOffFlashLight();
                     stop_camera();
                     stored=false;
                     Intent it=new Intent(MainActivity.this,SuccessActivity.class);
@@ -158,19 +121,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
                 }
             }
         });
-
-//        done.setOnClickListener(new Button.OnClickListener()
-//        {
-//            public void onClick(View arg0) {
-//                stop_camera();
-//                firstTime=true;
-//                Intent it=new Intent(MainActivity.this,SuccessActivity.class);
-//                it.putExtra("mr_no", newString);
-//                startActivity(it);
-//                finish();
-//            }
-//        });
-
         surfaceView = (SurfaceView)findViewById(R.id.surface_view1);
         surfaceHolder = surfaceView.getHolder();
         surfaceHolder.addCallback(this);
@@ -191,7 +141,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         jpegCallback = new PictureCallback() {
             public void onPictureTaken(byte[] data, Camera camera) {
                 mCameraData = data;
-                //                store(data);
             }
         };
     }
@@ -353,7 +302,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 
     @Override
     public void onBackPressed() {
-        // your code
         Intent it=new Intent(MainActivity.this,FirstActivity.class);
         startActivity(it);
         finish();

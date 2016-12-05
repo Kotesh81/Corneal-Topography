@@ -1,24 +1,11 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#2f4c8d">
 
-
-    <Button
-        android:id="@+id/button2"
-        android:textColor="#ffff"
-        android:layout_width="match_parent"
-        android:text=""
-        android:gravity="center_horizontal|bottom"
-        android:padding="58dp"
-        android:layout_gravity="center|bottom"
-        android:drawableTop="@drawable/capture2"
-        android:textSize="18sp"
-        android:layout_marginBottom="10dp"
-        android:layout_height="168dp" />
-
     <RelativeLayout android:layout_width="match_parent"
-        android:layout_height="343dp"
+        android:layout_height="wrap_content"
         android:paddingLeft="25dp"
         android:paddingTop="40dp"
         android:paddingRight="40dp"
@@ -163,5 +150,37 @@
             android:layout_marginLeft="180dp" />
 
     </RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+
+        <Button
+            android:textSize="18sp"
+            android:textColor="#ffff"
+            android:text="Gallery"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+        android:id="@+id/button2"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:text=""
+        android:gravity="center_horizontal|bottom"
+            android:layout_gravity="center|bottom"
+        android:drawableTop="@drawable/capture2"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+            android:layout_height="150dp"
+            android:padding="55dp" />
+
+    </LinearLayout>
 
 </FrameLayout>

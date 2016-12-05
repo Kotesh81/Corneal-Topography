@@ -117,7 +117,6 @@ import android.database.sqlite.SQLiteDatabase;
                 add.setText(" ");
                 male.setChecked(false);
                 female.setChecked(false);
-
             }
         });
     }

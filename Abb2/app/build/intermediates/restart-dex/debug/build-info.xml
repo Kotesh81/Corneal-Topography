@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="8193726639542"
+    timestamp="5622413181944"
     token="-7127049936148012901"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="108" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="46" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
         location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="8193726639542"
+        timestamp="5622413181944"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/vedipen/lvpei/newone/Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk"
