@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_in.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_in.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_out.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_right_out.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_out.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_in.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_out.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_in.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_out.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/animator/card_flip_right_out.xml"
+    }
+]

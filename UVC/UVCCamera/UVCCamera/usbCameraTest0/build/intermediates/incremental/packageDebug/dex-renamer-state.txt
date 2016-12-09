@@ -1,0 +1,7 @@
+#Fri Dec 09 23:46:35 IST 2016
+base.0=/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2da8149e1b2635e125ddfdc970a0cdb0320e14bb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3227f20cc2959841958007e9a33e1e13e7e66f01/classes.dex
+base.1=/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3227f20cc2959841958007e9a33e1e13e7e66f01
+file.0=/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2da8149e1b2635e125ddfdc970a0cdb0320e14bb/classes.dex

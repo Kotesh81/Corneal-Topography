@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/res/merged/debug/anim/slide_in_left.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/anim/slide_out_right.xml"
+    }
+]

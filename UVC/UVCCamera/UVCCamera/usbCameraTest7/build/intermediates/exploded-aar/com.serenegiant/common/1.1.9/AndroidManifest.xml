@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.serenegiant.common"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="28"
+    android:versionName="1.1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="25"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="16938448034958"
+    token="3560275020740679905"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="180" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="122" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/outputs/apk/usbCameraTest2-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="16938448034958"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/outputs/apk/usbCameraTest2-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

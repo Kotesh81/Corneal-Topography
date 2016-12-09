@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/src/main/assets"/><source path="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/src/release/assets"/></dataSet></merger>

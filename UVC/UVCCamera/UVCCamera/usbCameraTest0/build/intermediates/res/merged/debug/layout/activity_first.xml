@@ -1,0 +1,18 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bkgnd2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:text="@string/firstButton_firstActivity"
+        android:id="@+id/FirstActivityFirstButton"/>
+
+    <Button android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:text="@string/firstActivity_secondButton"
+        android:id="@+id/FirstActivitySecondButton"/>
+</LinearLayout>

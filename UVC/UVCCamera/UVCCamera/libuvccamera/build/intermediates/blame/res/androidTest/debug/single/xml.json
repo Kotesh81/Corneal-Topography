@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/androidTest/debug/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/bundles/debug/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/androidTest/debug/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/bundles/debug/res/xml/device_filter.xml"
+    }
+]

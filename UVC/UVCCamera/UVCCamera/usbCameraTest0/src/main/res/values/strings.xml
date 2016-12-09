@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">BullsEye</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_success">Success</string>
+    <string name="title_activity_suc">SucActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_old_p">OldPActivity</string>
+    <string name="firstButton_firstActivity">New Patient</string>
+    <string name="firstActivity_secondButton">Find Patient</string>
+    <string name="WelcomeToast">Welcome</string>
+    <string name="enter_mr_number_search">Enter MR Number</string>
+    <string name="enter_details_search">Enter Details</string>
+</resources>

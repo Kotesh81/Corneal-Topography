@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/release/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/res/merged/release/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraCommon/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/res/xml/device_filter.xml"
+    }
+]

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/com.serenegiant-common-1.1.9_303b7787d4e3b0313e99393b1cf277efdf05d645/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_246d3fd3c26f431698862ba0ea9f728affa23a2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_77797ed15b7dc385e98efa29e8a586ca50630910.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5474f0cf0dd9129bf4a7f9321e5dd4d2912bf6d9">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ab1eafd83f5b885932edd29adc6ab5b00d1f8289/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_b7a9cc1e9281495d29f09ecab6791b0931bc2bad.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="30534ac74206abae57ca0078a3a949e8ad325a4a">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f8a3c497448788480e5078087d6154caae1445da/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_990d787948baf5bc0fea5cba9f0916ae0980fed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_ab206ceefb4b4f912d8aee8827f19d2d7050cf9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_de2675355e1210cb325a34feac562ba22fba8ae3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_ac6fabb6843b2001aa1d7eec492700d6c8167a11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_d6f2e7320641faf46d49f149110d9fb9625184a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_d21e5a9ed02d6920e1aebc7924cbbe261954266c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_beb22f324a1085728266d3f435f5e278967e474d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_fb00b7b2c38fee3091f3aa92289e51e1e1d967e1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="30d3f02e07da4668eec716c5c3a161ec90713b26">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2da8149e1b2635e125ddfdc970a0cdb0320e14bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_4a0e07524ccf332f9370a5488e1b0db516e19fe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_3d886a092300b9a3831a05c462cec7af62fe56bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_1cf4fc921c6110cb58c0fc3b0026ed0b647ad153.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_af0d4eb3b0290afdeaa165c3d94e90a4dbd07d52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_67db95d42277b24d20ddd39cf4eaad42d449b8ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_0c967e48c7b9bbe7c4baec232fffd02cb6098786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_701c54a193cf29ac4e337e4e935b71b932f7fce6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_16a5f0810b88d9ea833e49f7522a51d0851dbe11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_cabac67d845f844b818a210b91d819752ba4fc59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_ceb9c4253dc70d422ec0ab687e005f9ed9a246db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_07cc8358302d345748d3a773164f76d7bff4bd5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_edcb7ea74891fac3c0fec8754fa8ef021814916a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_bc0a7b3281d68e795da9a50c961a4ea98955afb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_4c868914caccddcfbb2bda48a9c4fccb57216ca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_13b0a6806f61a822b55de4bedd983b8ca369bf7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_3297e44b7691374b707386be7937532e48278e54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_ad92533efd7b73adf4843dd7d34657f5939ca991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_f1487dc35fe38cbbf56dfa7da4671c3c14172bdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_12c96f18c3bd9bc9351157f9335cbeaf88181ca4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest7/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_e73dc30ef9706fc4ee18d282248046a284b95d68.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/com.serenegiant-common-1.1.9_c73a4b9cb85004757fbcb87f4c0120df14845f06/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_6f106139186066316606142245bbc171f2f2b766.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest6/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_ea8b71e28e65be3f4ef02ad9c4d39cc1e0e5c004.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bd4ccd6f92de23d3dd661563fbc8b9ce88be11b0">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3227f20cc2959841958007e9a33e1e13e7e66f01/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_71edd06daf027cfc933907e1983398fef4ff3edd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vedipen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest0/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_0c967e48c7b9bbe7c4baec232fffd02cb6098786/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_9956526dbf353d16eacd280525d950632d39150d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/exploded-aar/UVCCamera/libuvccamera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bafe4a591d83502f350e8bca97bd6a6ce0b272">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest5/build/intermediates/pre-dexed/debug/UVCCamera-libuvccamera-unspecified_faf56eaeb2b953121e7c463d688930e6ab65d9ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest4/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_ee5dd8e7fee4de05181f18acd4f28f05467f79a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa65f439b18b6bb99bae7cefeab7a77bdbd968db">
+        <dex dex="/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest2/build/intermediates/pre-dexed/debug/com.serenegiant-common-1.1.9_2d43188bafc00d57742991b5ef21be3cbb2584cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/exploded-aar/UVCCamera/usbCameraCommon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76280cea9fda3e40932177ff8036484653849853">
+        <dex dex="/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest3/build/intermediates/pre-dexed/debug/UVCCamera-usbCameraCommon-unspecified_a0cd7b72647201189a90dae40e13a2c8ab889165.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="ALICEBLUE">#fff0f8ff</color>
+    <color name="ANTIQUEWHITE">#fffaebd7</color>
+    <color name="AQUA">#ff00ffff</color>
+    <color name="AQUAMARINE">#ff7fffd4</color>
+    <color name="AZURE">#fff0ffff</color>
+    <color name="BEIGE">#fff5f5dc</color>
+    <color name="BISQUE">#ffffe4c4</color>
+    <color name="BLACK">#ff000000</color>
+    <color name="BLANCHEDALMOND">#ffffebcd</color>
+    <color name="BLUE">#ff0000ff</color>
+    <color name="BLUEVIOLET">#ff8a2be2</color>
+    <color name="BROWN">#ffa52a2a</color>
+    <color name="BURLYWOOD">#ffdeb887</color>
+    <color name="CADETBLUE">#ff5f9ea0</color>
+    <color name="CHARTREUSE">#ff7fff00</color>
+    <color name="CHOCOLATE">#ffd2691e</color>
+    <color name="CLEAR">#00000000</color>
+    <color name="CORAL">#ffff7f50</color>
+    <color name="CORNFLOWERBLUE">#ff6495ed</color>
+    <color name="CORNSILK">#fffff8dc</color>
+    <color name="CRIMSON">#ffdc143c</color>
+    <color name="CYAN">#ff00ffff</color>
+    <color name="DARKBLUE">#ff00008b</color>
+    <color name="DARKCYAN">#ff008b8b</color>
+    <color name="DARKGOLDENROD">#ffb8860b</color>
+    <color name="DARKGRAY">#ffa9a9a9</color>
+    <color name="DARKGREEN">#ff006400</color>
+    <color name="DARKKHAKI">#ffbdb76b</color>
+    <color name="DARKMAGENTA">#ff8b008b</color>
+    <color name="DARKOLIVEGREEN">#ff556b2f</color>
+    <color name="DARKORANGE">#ffff8c00</color>
+    <color name="DARKORCHID">#ff9932cc</color>
+    <color name="DARKRED">#ff8b0000</color>
+    <color name="DARKSALMON">#ffe9967a</color>
+    <color name="DARKSEAGREEN">#ff8fbc8f</color>
+    <color name="DARKSLATEBLUE">#ff483d8b</color>
+    <color name="DARKSLATEGRAY">#ff2f4f4f</color>
+    <color name="DARKTURQUOISE">#ff00ced1</color>
+    <color name="DARKVIOLET">#ff9400d3</color>
+    <color name="DEEPPINK">#ffff1493</color>
+    <color name="DEEPSKYBLUE">#ff00bfff</color>
+    <color name="DIMGRAY">#ff696969</color>
+    <color name="DODGERBLUE">#ff1e90ff</color>
+    <color name="FIREBRICK">#ffb22222</color>
+    <color name="FLORALWHITE">#fffffaf0</color>
+    <color name="FORESTGREEN">#ff228b22</color>
+    <color name="FUCHSIA">#ffff00ff</color>
+    <color name="GAINSBORO">#ffdcdcdc</color>
+    <color name="GHOSTWHITE">#fff8f8ff</color>
+    <color name="GOLD">#ffffd700</color>
+    <color name="GOLDENROD">#ffdaa520</color>
+    <color name="GRAY">#ff808080</color>
+    <color name="GREEN">#ff008000</color>
+    <color name="GREENYELLOW">#ffadff2f</color>
+    <color name="HALF_CLEAR_BLACK">#7f000000</color>
+    <color name="HALF_CLEAR_GRAY">#7f808080</color>
+    <color name="HALF_CLEAR_WHITE">#7fffffff</color>
+    <color name="HONEYDEW">#fff0fff0</color>
+    <color name="HOTPINK">#ffff69b4</color>
+    <color name="INDIANRED">#ffcd5c5c</color>
+    <color name="INDIGO">#ff4b0082</color>
+    <color name="IVORY">#fffffff0</color>
+    <color name="KHAKI">#fff0e68c</color>
+    <color name="LAVENDER">#ffe6e6fa</color>
+    <color name="LAVENDERBLUSH">#fffff0f5</color>
+    <color name="LAWNGREEN">#ff7cfc00</color>
+    <color name="LEMONCHIFFON">#fffffacd</color>
+    <color name="LIGHTBLUE">#ffadd8e6</color>
+    <color name="LIGHTCORAL">#fff08080</color>
+    <color name="LIGHTCYAN">#ffe0ffff</color>
+    <color name="LIGHTGOLDENRODYELLOW">#fffafad2</color>
+    <color name="LIGHTGRAY">#ffd3d3d3</color>
+    <color name="LIGHTGREEN">#ff90ee90</color>
+    <color name="LIGHTPINK">#ffffb6c1</color>
+    <color name="LIGHTSALMON">#ffffa07a</color>
+    <color name="LIGHTSEAGREEN">#ff20b2aa</color>
+    <color name="LIGHTSKYBLUE">#ff87cefa</color>
+    <color name="LIGHTSLATEGRAY">#ff778899</color>
+    <color name="LIGHTSTEELBLUE">#ffb0c4de</color>
+    <color name="LIGHTYELLOW">#ffffffe0</color>
+    <color name="LIME">#ff00ff00</color>
+    <color name="LIMEGREEN">#ff32cd32</color>
+    <color name="LINEN">#fffaf0e6</color>
+    <color name="MAGENTA">#ffff00ff</color>
+    <color name="MAROON">#ff800000</color>
+    <color name="MEDIUMAQUAMARINE">#ff66cdaa</color>
+    <color name="MEDIUMBLUE">#ff0000cd</color>
+    <color name="MEDIUMORCHID">#ffba55d3</color>
+    <color name="MEDIUMPURPLE">#ff9370db</color>
+    <color name="MEDIUMSEAGREEN">#ff3cb371</color>
+    <color name="MEDIUMSLATEBLUE">#ff7b68ee</color>
+    <color name="MEDIUMSPRINGGREEN">#ff00fa9a</color>
+    <color name="MEDIUMTURQUOISE">#ff48d1cc</color>
+    <color name="MEDIUMVIOLETRED">#ffc71585</color>
+    <color name="MIDNIGHTBLUE">#ff191970</color>
+    <color name="MINTCREAM">#fff5fffa</color>
+    <color name="MISTYROSE">#ffffe4e1</color>
+    <color name="MOCCASIN">#ffffe4b5</color>
+    <color name="NAVAJOWHITE">#ffffdead</color>
+    <color name="NAVY">#ff000080</color>
+    <color name="OLDLACE">#fffdf5e6</color>
+    <color name="OLIVE">#ff808000</color>
+    <color name="OLIVEDRAB">#ff6b8e23</color>
+    <color name="ORANGE">#ffffa500</color>
+    <color name="ORANGERED">#ffff4500</color>
+    <color name="ORCHID">#ffda70d6</color>
+    <color name="PALEGOLDENROD">#ffeee8aa</color>
+    <color name="PALEGREEN">#ff98fb98</color>
+    <color name="PALETURQUOISE">#ffafeeee</color>
+    <color name="PALEVIOLETRED">#ffdb7093</color>
+    <color name="PAPAYAWHIP">#ffffefd5</color>
+    <color name="PEACHPUFF">#ffffdab9</color>
+    <color name="PERU">#ffcd853f</color>
+    <color name="PINK">#ffffc0cb</color>
+    <color name="PLUM">#ffdda0dd</color>
+    <color name="POWDERBLUE">#ffb0e0e6</color>
+    <color name="PURPLE">#ff800080</color>
+    <color name="QUATER_CLEAR_BLACK">#3f000000</color>
+    <color name="QUATER_CLEAR_GRAY">#3f808080</color>
+    <color name="QUATER_CLEAR_WHITE">#3fffffff</color>
+    <color name="RED">#ffff0000</color>
+    <color name="ROSYBROWN">#ffbc8f8f</color>
+    <color name="ROYALBLUE">#ff4169e1</color>
+    <color name="SADDLEBROWN">#ff8b4513</color>
+    <color name="SALMON">#fffa8072</color>
+    <color name="SANDYBROWN">#fff4a460</color>
+    <color name="SEAGREEN">#ff2e8b57</color>
+    <color name="SEASHELL">#fffff5ee</color>
+    <color name="SIENNA">#ffa0522d</color>
+    <color name="SILVER">#ffc0c0c0</color>
+    <color name="SKYBLUE">#ff87ceeb</color>
+    <color name="SLATEBLUE">#ff6a5acd</color>
+    <color name="SLATEGRAY">#ff708090</color>
+    <color name="SNOW">#fffffafa</color>
+    <color name="SPRINGGREEN">#ff00ff7f</color>
+    <color name="STEELBLUE">#ff4682b4</color>
+    <color name="TAN">#ffd2b48c</color>
+    <color name="TEAL">#ff008080</color>
+    <color name="THISTLE">#ffd8bfd8</color>
+    <color name="TOMATO">#ffff6347</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="TURQUOISE">#ff40e0d0</color>
+    <color name="VIOLET">#ffee82ee</color>
+    <color name="WHEAT">#fff5deb3</color>
+    <color name="WHITE">#ffffffff</color>
+    <color name="WHITESMOKE">#fff5f5f5</color>
+    <color name="YELLOW">#ffffff00</color>
+    <color name="YELLOWGREEN">#ff9acd32</color>
+    <color name="contents_text">@color/BLACK</color>
+    <color name="encode_view">@color/WHITE</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_minor_text">@color/SILVER</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">@color/WHITE</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">@color/WHITE</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <declare-styleable name="FrameView"><attr default="frame_type_frame" name="frame_type">
+			<enum name="frame_type_none" value="0"/>
+			<enum name="frame_type_frame" value="1"/>
+			<enum name="frame_type_cross_full" value="2"/>
+			<enum name="frame_type_cross_quarter" value="3"/>
+			<enum name="frame_type_circle" value="4"/>
+			<enum name="frame_type_cross_circle" value="5"/>
+			<enum name="frame_type_circle2" value="6"/>
+			<enum name="frame_type_cross_circle2" value="7"/>
+		</attr><attr default="3dp" format="dimension" name="frame_width"/><attr default="#ffb1b1b1" format="reference|color|integer" name="frame_color"/><attr default="scale_none" name="scale_type">
+			<enum name="scale_none" value="0"/>
+			<enum name="scale_inch" value="1"/>
+			<enum name="scale_mm" value="2"/>
+		</attr><attr default="3dp" format="dimension" name="scale_width"/><attr default="#ffb1b1b1" format="reference|color|integer" name="scale_color"/><attr default="0" format="float" name="scale_rotation"/><attr default="1" format="float" name="scale_scale"/><attr default="#ffb1b1b1" format="reference|color|integer" name="tick_color"/></declare-styleable>
+    <declare-styleable name="ItemPicker"><attr format="reference" name="ItemPickerIncrementSrc"/><attr format="reference" name="ItemPickerDecrementSrc"/><attr format="reference" name="ItemPickerIncrementBackground"/><attr format="reference" name="ItemPickerDecrementBackground"/><attr format="reference" name="ItemPickerEditTextBackground"/><attr format="integer" name="ItemPickerMinItemValue"/><attr format="integer" name="ItemPickerMaxItemValue"/><attr format="integer" name="ItemPickerCurrentItemValue"/><attr format="integer" name="ItemPickerSpeed"/><attr format="reference" name="ItemPickerDisplayedValue"/></declare-styleable>
+    <declare-styleable name="SeekBarPreference"><attr default="0" format="integer|reference" name="min_value"/><attr default="100" format="integer|reference" name="max_value"/><attr default="0" format="integer|reference" name="default_value"/><attr default="0" format="reference" name="seekbar_layout"/><attr default="@id/seekbar" format="reference" name="seekbar_id"/><attr default="@id/seekbar_value_label" format="reference" name="seekbar_label_id"/><attr default="1" format="float" name="scale_value"/><attr default="1" format="string|reference" name="value_format"/></declare-styleable>
+    <declare-styleable name="TimePicker"><attr format="integer" name="TimePickerDefaultValue"/></declare-styleable>
+    <dimen name="color_picker_margin_horizontal">16dp</dimen>
+    <dimen name="color_picker_margin_vertical">16dp</dimen>
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="list_item_bluetooth_info_padding">8dp</dimen>
+    <dimen name="scale_type_margin_top">18dp</dimen>
+    <dimen name="scale_type_padding">16dp</dimen>
+    <dimen name="text_sz_scale_type">24sp</dimen>
+    <item name="address" type="id"/>
+    <item name="anim_duration" type="id"/>
+    <item name="anim_listener" type="id"/>
+    <item name="anim_type" type="id"/>
+    <item name="icon" type="id"/>
+    <item name="mediastorephotoadapter" type="id"/>
+    <item name="name" type="id"/>
+    <item name="seekbar" type="id"/>
+    <item name="seekbar_value_label" type="id"/>
+    <item name="thumbnail" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <string name="color_picker_cancel">Cancel</string>
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="color_picker_select">Select</string>
+    <string name="color_swatch_description">Color <ns1:g example="14" id="color_index">%1$d</ns1:g></string>
+    <string name="color_swatch_description_selected">Color <ns1:g example="14" id="color_index">%1$d</ns1:g> selected</string>
+    <string name="permission_audio">No audio recording permission. \nAll audio function is disabled</string>
+    <string name="permission_audio_recording_reason">Audio recording permission is necessary for movie capture with audio.</string>
+    <string name="permission_audio_recording_request">Audio recording permission is necessary for movie capture with audio.</string>
+    <string name="permission_audio_streaming_reason">Audio recording permission is necessary for streaming with audio.</string>
+    <string name="permission_audio_streaming_request">Audio recording permission is necessary for streaming with audio.</string>
+    <string name="permission_camera">No camera access permission</string>
+    <string name="permission_camera_finish">No camera access permission. \nApp will finish soon</string>
+    <string name="permission_camera_reason">Camera access permission is necessary for fallback to built in camera.</string>
+    <string name="permission_camera_request">Camera access permission is necessary for fallback to built in camera.</string>
+    <string name="permission_ext_storage">No permission of writing external storage. \nMovie/still image capturing are disabled.</string>
+    <string name="permission_ext_storage_finish">No writing external storage permission. \nApp will finish soon</string>
+    <string name="permission_ext_storage_reason">Permission of writing external storage is necessary for movie/still image capturing.</string>
+    <string name="permission_ext_storage_request">Permission of writing external storage is necessary for movie/still image capturing.</string>
+    <string name="permission_location">No location access permission</string>
+    <string name="permission_location_finish">No location access permission. \nApp will finish soon</string>
+    <string name="permission_location_reason">Location access permission is necessary for %s</string>
+    <string name="permission_location_request">Location access permission is necessary for %s</string>
+    <string name="permission_network">No network access permission.</string>
+    <string name="permission_network_finish">No network access permission. \nApp will finish soon</string>
+    <string name="permission_network_reason">Network access permission is necessary for streaming.</string>
+    <string name="permission_network_request">Network access permission is necessary for streaming.</string>
+    <string name="permission_title">Regarding permission</string>
+    <string name="scale_type_inch">inch scale</string>
+    <string name="scale_type_mm">mm scale</string>
+    <string name="scale_type_none">none</string>
+    <style name="SeekBarPreference_summary" parent="@android:style/TextAppearance.Small">
+		
+	</style>
+    <style name="SeekBarPreference_title" parent="@android:style/TextAppearance.Large"/>
+</resources>

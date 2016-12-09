@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/usbCameraTest/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/usbCameraTest/src/main/res/xml/device_filter.xml"
+    }
+]

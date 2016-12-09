@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/item_picker.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/item_picker.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/color_picker.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/color_picker.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/item_picker.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/item_picker.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/view_frame_selector.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/view_frame_selector.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/list_item_bluetooth_device_info.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/list_item_bluetooth_device_info.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/color_picker_dialog.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/color_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/listitem_device.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/view_frame_selector.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/view_frame_selector.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/dialog_camera.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/src/main/res/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/color_picker_dialog.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/color_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/list_item_bluetooth_device_info.xml",
+        "source": "/home/vedipen/lvpei/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/list_item_bluetooth_device_info.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/dialog_camera.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/src/main/res/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/listitem_device.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/res/merged/release/layout/color_picker.xml",
+        "source": "/home/vedipen/lvpei2/UVC/UVCCamera/UVCCamera/libuvccamera/build/intermediates/exploded-aar/com.serenegiant/common/1.1.9/res/layout/color_picker.xml"
+    }
+]
