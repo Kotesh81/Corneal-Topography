@@ -18,7 +18,7 @@ with SDK tools
 
 ## Installation:
 * In order to run this application on android devices, follow the path 
-`abb2->bin->app-debug.apk`.
+`Corneal-Topography/Abb2/app/build/outputs/apk/app-debug.apk`.
 Download this apk file in your mobile and install it.
 * If you want to view the whole project, download this project and extract to a folder. Then import it in eclipse or android studio 
 `file->import->general->existing projects`
